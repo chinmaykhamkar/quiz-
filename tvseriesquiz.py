@@ -125,6 +125,9 @@ def breaking_bad():
         score = score - 1
         print('opps!!! the right ans was 4\n')
         print("your score is", score)
+
+
+
 def death_note ():
     score = 0
 
@@ -259,13 +262,12 @@ print ("***********welcome to the quiz game************\n")
 print ('u will be asked questions based on your favorite tv shows\n')
 print ('rules for the quiz\n1)there would be 10 questions in each set\n2)+4 for right answer and -1 for wrong ans')
 print ('select any tv show of your choice')
-print('1)breaking bad\n2)F.R.I.E.N.D.S\n3)death note')
-c =  int (input("your choice"))
+print('1)breaking bad\n2)death note\n')
+c =  (int)(input("your choice"))
 if c == 1:
     breaking_bad()
+
 elif c == 2:
-    friends()
-elif c==3:
     death_note()
 else:
     print("invalid choice")
